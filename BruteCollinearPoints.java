@@ -1,7 +1,6 @@
 import java.util.Arrays;
 public class BruteCollinearPoints {
-    private Node Head;
-    private Node Tail;
+
     private int count;
     private LineSegment[] lineArrayList;
 
@@ -13,6 +12,8 @@ public class BruteCollinearPoints {
 
     public BruteCollinearPoints(Point[] points)
     {
+        Node Head;
+        Node Tail;
         Head = new Node();
         Tail = Head;
         count = 0;
